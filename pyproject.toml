@@ -1,0 +1,20 @@
+[project]
+name = "building-with-claude"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Lal Castro", email = "lal.castro@icloud.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=1.7.0",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+building-with-claude = "building_with_claude:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
