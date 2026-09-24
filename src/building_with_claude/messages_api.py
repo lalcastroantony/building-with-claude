@@ -18,18 +18,16 @@ def add_assistant_message(messages, text):
 
 
 # temperature was removed and effort is the new way. But it was using lot of tokens and some failures happened. so It is not used now.
-def chat(messages, system=None, effort="high", max_tokens=1000, stop_sequences=None):
+def chat(messages, system=None, effort="high", max_tokens=1000, stop_sequences=[]):
     params = {
         "model": model,
         "max_tokens": max_tokens,
         "messages": messages,
+        "stop_sequences": stop_sequences,
     }
 
     if system:
         params["system"] = system
-    if stop_sequences:
-        params["stop_sequences"] = stop_sequences
-
     message = client.messages.create(**params)
 
     return message.content[0].text

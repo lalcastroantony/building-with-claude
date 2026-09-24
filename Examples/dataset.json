@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Write a Python function that takes a list of EC2 instance dictionaries and returns only the instances that are in 'running' state and have a tag named 'Environment' with value 'production'",
+    "format": "python"
+  },
+  {
+    "task": "Create a JSON object for an IAM policy that allows read-only access to a specific S3 bucket named 'my-app-logs' and all objects within it",
+    "format": "json"
+  },
+  {
+    "task": "Write a regex pattern that validates an AWS ARN (Amazon Resource Name) format for S3 buckets, matching the pattern 'arn:aws:s3:::bucket-name' or 'arn:aws:s3:::bucket-name/*'",
+    "format": "regex"
+  }
+]
