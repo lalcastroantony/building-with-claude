@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training day with high-endurance focus requiring 3,500+ calories and carbohydrate loading",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Total daily calories meet or exceed 3,500",
+      "Carbohydrates comprise 55-65% of total calories for endurance fuel",
+      "Meal plan is structured as a single day with distinct meals",
+      "All foods are practical and support sustained energy for marathon training"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3,500+ calories with emphasis on carbohydrate loading and sustained energy sources"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "High-performance soccer with sustained energy for 90-minute matches",
+      "restrictions": "Vegan (no animal products including meat, fish, dairy, eggs, honey)"
+    },
+    "solution_criteria": [
+      "Meal plan totals approximately 2,200 calories",
+      "All meals and snacks are completely vegan with no animal products",
+      "Includes adequate protein sources for muscle recovery and performance",
+      "Plan is compact and covers breakfast, lunch, dinner, and pre/post-match snacks for one day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific dietary restriction (vegan soccer player) requiring 2,200 calories while meeting performance needs without animal products"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "82 kg",
+      "goal": "Strength and power development with 2,800 calories and high protein intake for muscle recovery",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals approximately 2,800 calories",
+      "Protein distributed across all meals (minimum 30g per meal for 4+ meals)",
+      "Includes pre-workout and post-workout nutrition timing",
+      "Compact format with 4-5 meals listed with portion sizes and macros"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) requiring 2,800 calories with high protein distribution across meals and recovery nutrition timing"
+  }
+]
