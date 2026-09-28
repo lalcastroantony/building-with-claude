@@ -18,12 +18,15 @@ def add_assistant_message(messages, text):
 
 
 # temperature was removed and effort is the new way. But it was using lot of tokens and some failures happened. so It is not used now.
-def chat(messages, system=None, effort="high", max_tokens=1000, stop_sequences=[]):
+def chat(
+    messages, system=None, effort="high", max_tokens=1000, stop_sequences=[], tools=[]
+):
     params = {
         "model": model,
         "max_tokens": max_tokens,
         "messages": messages,
         "stop_sequences": stop_sequences,
+        "tools": tools,
     }
 
     if system:
